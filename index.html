@@ -1,0 +1,410 @@
+    <!DOCTYPE html>
+
+    <html>
+        
+            
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+            </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        
+ 
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+    <!-- ============================================ -->
+    <!--                 Navigation                   -->
+    <!-- ============================================ -->
+
+    <header id="cs-navigation">
+        <div class="cs-container">
+            <!--Nav Logo-->
+            <a href="" class="cs-logo" aria-label="back to home">
+                <img src="./Images/Logo_website-min.png"alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+            </a>
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+                <button class="cs-toggle" aria-label="mobile menu toggle">
+                    <div class="cs-box" aria-hidden="true">
+                        <span class="cs-line cs-line1" aria-hidden="true"></span>
+                        <span class="cs-line cs-line2" aria-hidden="true"></span>
+                        <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    </div>
+                </button>
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link cs-active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                About Ayuskaam
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                Our Services
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                Gallery
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+            
+                </div>
+            </nav>
+            <form class="cs-search-bar" action="/search" method="get">
+                <input type="text" name="search-query" class="cs-search-input" placeholder="Search Treatments">
+            <button type="submit" class="cs-search-button">
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
+            </button>
+            </form>
+        </div>
+    </header>
+    
+
+    <body>
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+
+    <section id="hero-1785">
+        <div class="cs-container">
+            <div class="cs-content">
+                <h1 class="cs-title">Ayuskaam</h1>
+                <p class="cs-text">
+                Always remember to SMILE
+                </p>    
+                <div class="cs-button-group">
+                    <a href="" class="cs-button-solid cs-button1">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Image -->
+        <picture class="cs-background">
+            <source media="(max-width: 600px)" src="Images/Massage_home-min.jpg">
+            <source media="(min-width: 601px)" src="Images/Massage_home-min.jpg">
+            <img loadin ="lazy" decoding="async" src="Images/Massage_home-min.jpg" alt="field" width="1920" height="1200" aria-hidden="true">
+        </picture>
+
+        
+        <!--This is a dark version. Download the image and change the fill color to match the color of the section background below it-->
+        <img class="cs-graphic cs-graphic-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="sbsr-1475">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            
+            <!--Big Background Image-->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" src="Images/Aromatic-min.jpg">
+                <source media="(min-width: 601px)" src="Image/Aromatic-min.jpg">
+                <img loading="lazy" decoding="async" src="Images/Aromatic-min.jpg" alt="Thai Tower" width="542" height="720" aria-hidden="true">
+            </picture>
+            <!--Oval-->
+            <img class="cs-oval" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/oval.svg" alt="oval" width="600" height="570" aria-hidden="true">
+            <!--Oval-->
+            <img class="cs-oval1" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/oval.svg" alt="oval" width="600" height="570" aria-hidden="true">
+      
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+
+            <h2 class="cs-title">Welcome To Ayuskaam</h2>
+            <p class="cs-text">
+                Welcome to a private oasis of health and healing. 'Ayuskaam' is a unique beauty center that combines the luxury of a day spa with the comfort and seclusion of a private home. 
+                It is the culmination of two decades of professional experience in the beauty industry and a firm belief in holistic therapy. Here you will find treatments aimed at restoring balance to your mind, body and spirit, 
+                so they can work in harmony to bring you a healthy and happy life. It's more than about just looking good; it's about feeling your best. 
+                I build a personal relationship with clients and have dedicated my professional life to providing them with the highest standards of therapy using all-natural Australian products. 
+                Please explore the range of services that Ayuskaam offers to find the treatment best suited to you.
+            </p>
+            
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+        </div>
+    </div>
+</section>
+                                
+    <!-- ============================================ -->
+    <!--                 Side By Side                 -->
+    <!-- ============================================ -->
+
+    <section id="sbs-75">
+        <div class="cs-container">
+            <div class="cs-wrapper">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" src="Images/About_Image-min.jpg">
+                    <source media="(min-width: 601px)" src="Images/About_Image-min.jpg">
+                    <img loading="lazy" decoding="async" src="Images/About_Image-min.jpg" alt="body builder" width="500" height="552" aria-hidden="true">
+                </picture>
+            </div>
+            <div class="cs-content">
+                <h2 class="cs-title">About Ayuskaam</h2>
+                <span class="cs-topper">A brief introduction to Ayuskaam</span>
+                <p class="cs-text">
+                    
+                Ayuskaam is an ancient Sanskrit word meaning 'wishing for long life and health', and this is the philosophy that has been the guiding light throughout my 20-year career in the wellness industry. It epitomizes my belief that a healthy mind is essential for a healthy body and beautiful skin. More than just a beauty salon, Ayuskaam is a tranquil oasis for your mind, a place of solitude where your body and soul can reconnect away from the stress of everyday life. </p>
+
+                <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+            </div>
+        </div>
+    </section>
+                
+    <!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="sbsr-1810">
+    <div class="cs-container">
+        <style>
+            #map{
+                height: 500px;
+                width: 100%;
+                margin-left: 20px;
+            }
+        </style>
+        <div id="map"> </div>
+    
+       <script src="main.js"></script>
+        <script async defer 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-q_4xzl3Wn4_IRgcOYd53gT0HnlnxpKw&loading=async&callback=initMap">
+        </script> 
+       
+        
+        
+        <div class="cs-content">
+            
+            <h2 class="cs-title">Where are we located?</h2>
+            <p class="cs-text">
+               We are located at: <br>
+               Ayuskaam Wellness & Beauty Salon<br>
+               26, Muir Street, Mt Waverley, VIC 3149<br>
+               Ph: (03) 9884 7276
+            </p>
+          
+        </div>
+    </div>
+
+    
+</section>
+                                
+
+
+
+    <!-- ============================================ -->
+    <!--                   Gallery                    -->
+    <!-- ============================================ -->
+
+    <section id="gallery-43">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper"></span>
+                <h2 class="cs-title">Popular Services Provided by Ayuskaam</h2>
+                <p class="cs-text">
+                  Here are some of our popular services that are in great demand by some of our customers come book a session now!!
+            </div>
+            <div class="cs-image-group">
+                <!-- Image 1 -->
+                <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" src="Images/Crystals_Reiki-min.jpg">
+                        <source media="(min-width: 601px)" src="Images/Crystals_Reiki-min.jpg">
+                        <img loading="lazy" decoding="async" src="Images/Crystals_Reiki-min.jpg" alt="Crystals of various types, colours and shapes" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        
+                        <h3 class="cs-h3">Reiki Healing</h3>
+                        <p class="cs-hover-box-text">
+                            Reiki is a Japanese technique for stress reduction and relaxation that also promotes healing. It is practiced through laying hands on the client's body and tuning into their individual 'energy'. 
+                            This 'energy' refers to the idea that there is an unseen 'life force' flowing through all of us and that this is what gives us life and vitality. If one's 'energy' is low, then we are more likely to get sick or feel stress, and if it is high, we are more capable of being happy and healthy.
+                        </p>
+                        
+                    </div>
+                </a>
+                <!-- Image 2 -->
+                <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" src="Images/Waxing_Gallery-min.jpg">
+                        <source media="(min-width: 601px)" src="Images/Waxing_Gallery-min.jpg">
+                        <img loading="lazy" decoding="async" src="Images/Waxing_Gallery-min.jpg" alt="Wax pad used for waxing hairy structures of " width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                     
+                        <h3 class="cs-h3">Waxing and Treading</h3>
+                            <p class="cs-hover-box-text">
+                           
+                            At Ayuskaam, our waxing service is designed to make you feel pampered and cared for in every way. Our friendly and skilled aestheticians use gentle, high-quality wax to ensure your skin is left smooth and soft. Leaving you well cared for 
+                        </p>
+                    </div>
+                </a>
+                <!-- Image 3 -->
+                <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" src="Images/body_massage-min.jpg">
+                        <source media="(min-width: 601px)" src="Images/body_massage-min.jpg">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="Images/body_massage-min.jpg" alt="modern home at night" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        
+                        <h3 class="cs-h3">  Body Therapy & Massage  </h3>
+                        <p class="cs-hover-box-text">
+                            Discover a sanctuary of relaxation and healing at Ayuskaam. Treat yourself to our nurturing body massages that melt away stress and tension. Experience the bliss of Padabhgang, a revitalizing foot massage, and let the soothing warmth of Shirodhara, where gentle streams of oil are poured on your head, calm your mind and lift your spirit. At Ayuskaam, we bring harmony to your body and peace to your soul.
+                        </p>
+                    </div>
+                </a>
+                <!-- Image 4 -->
+                <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" src="Images/microcurrent-min.jpg">
+                        <source media="(min-width: 601px)" src="Images/microcurrent-min.jpg">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="Images/microcurrent-min.jpg" alt="modern home" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        
+                        <h3 class="cs-h3">Micro-current Face Lift </h3>
+                        <p class="cs-hover-box-text">
+                            Discover a new level of self-care with Ayuskaam's Micro-current Face Lift. Our non-surgical facelift gently tones and tightens your skin. This brings out your natural, youthful glow and lifts those years straight off your face.
+                        </p>
+                    </div>
+                </a>
+                <!-- Image 5 -->
+                <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" src="Images/organic_microdermabrasion-min.jpg">
+                        <source media="(min-width: 601px)" src="Images/organic_microdermabrasion-min.jpg">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="Images/organic_microdermabrasion-min.jpg" alt="Image of organic Microdermabrasion treatment" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                        
+                        <h3 class="cs-h3">
+                            Organic Microdermabrasion</h3>
+                        <p class="cs-hover-box-text">
+                            Organic Microdermabrasion is the latest innovation in facial therapy. The technology specifically targets aging and damaged skin to reverse the effects of stress, sun and time. And the best part? All natural products are used in the treatment to bring out the fresh, youthful complexion we all deserve.
+                        </p>
+                    </div>
+                </a>
+                <!-- Image 6 -->
+                <a class="cs-item" href="">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" src="Images/facial therapy-min.jpg">
+                        <source media="(min-width: 601px)" src="Images/facial therapy-min.jpg">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="Images/facial therapy-min.jpg" alt="modern home" width="346" height="346">
+                    </picture>
+                    <!-- Hover Box -->
+                    <div class="cs-hover-box">
+                       
+                        <h3 class="cs-h3">Facial Therapy</h3>
+                        <p class="cs-hover-box-text">
+                            Treat yourself to a refreshing facial therapy session at Ayuskaam! Our Purity Cleanse/Extraction will leave your skin super clean, while our Signature Facial gives you that beautiful glow. For an extra boost, try our Peptide Power Facial for amazing results and much more                      </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-269">
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img light" aria-hidden="true" loading="lazy" decoding="async" src="./Images/Logo_website-min.png" alt="logo" width="240" height="32">
+            </a>
+            <p class="cs-text">
+                Always remember to SMILE
+            </p>
+        </div>
+        <!-- Links -->
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Site map</span>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Home</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">About Ayuskaam</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Our Services</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Gallery</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Contact us </a>
+            </li>
+        </ul>
+        <!-- Contact Info -->
+        <ul class="cs-contact">
+            <li class="cs-nav-li">
+                <span class="cs-header">Contact us</span>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link" href="tel: (03) 9884 7276">(03) 9884 7276</a>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link" href="https://www.google.com/maps?sca_esv=d101a66f306daf47&rlz=1C1ONGR_en-GBAU1107AU1107&output=search&q=ayuskaam&source=lnms&entry=mc&ved=1t:200715&ictx=111"> 26, Muir Street, Mt Waverley, VIC 3149</a>
+            </li>
+           
+
+            <!-- Social Media -->
+            <li class="cs-contact-li cs-social-group">
+                <div class="cs-social">
+                    <a class="cs-social-link" aria-label="visit google profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google" width="11" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</footer>
+                    
+    </body>                                 
