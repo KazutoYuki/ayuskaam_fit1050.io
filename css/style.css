@@ -1258,7 +1258,7 @@ body, html {
   #cs-footer-269 {
       /* 60px - 100px top and bottom */
       padding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
-      background-color: #1a1a1a;
+      background-color: #101a02;
       /* Navigation Links */
       /* Contact Links */
   }
